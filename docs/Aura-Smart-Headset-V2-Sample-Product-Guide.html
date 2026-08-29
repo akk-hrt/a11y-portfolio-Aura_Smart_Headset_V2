@@ -3,9 +3,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aura Smart Headset V2 - Sample Customer Brochure & Product Guide</title>
+    <title>Aura Smart Headset V2 - Sample Customer Brochure &amp; Product Guide</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f6f8fb;
+            --surface: #ffffff;
+            --text: #1c2430;
+            --muted: #4a5568;
+            --primary: #0b5fad;
+            --border: #d7deea;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Inter", "Segoe UI", Arial, sans-serif;
+            line-height: 1.6;
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        a {
+            color: var(--primary);
+        }
+
+        a:focus-visible,
+        button:focus-visible {
+            outline: 3px solid #ffbf47;
+            outline-offset: 2px;
+        }
+
+        .skip-link {
+            position: absolute;
+            left: -9999px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        .skip-link:focus {
+            left: 1rem;
+            top: 1rem;
+            width: auto;
+            height: auto;
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.35rem;
+            background: #ffffff;
+            border: 2px solid #ffbf47;
+            z-index: 999;
+        }
+
+        .page {
+            max-width: 70rem;
+            margin: 0 auto;
+            padding: 1.25rem;
+        }
+
+        .surface {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            box-shadow: 0 3px 10px rgba(17, 40, 71, 0.08);
+        }
+
+        header h1 {
+            margin-bottom: 0.4rem;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            margin-top: 0;
+            color: var(--muted);
+            font-size: 1.08rem;
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            border: 1px solid var(--border);
+        }
+
+        figcaption {
+            margin-top: 0.6rem;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        h2,
+        h3 {
+            line-height: 1.3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0.75rem 0 1.25rem;
+            font-size: 0.98rem;
+        }
+
+        caption {
+            text-align: left;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        th,
+        td {
+            border: 1px solid var(--border);
+            padding: 0.65rem;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        thead th {
+            background: #eaf2fb;
+        }
+
+        footer {
+            margin-top: 1.5rem;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 48rem) {
+            .surface {
+                padding: 1rem;
+            }
+
+            table {
+                font-size: 0.93rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="page">
+        <header class="surface" role="banner" aria-labelledby="page-title">
+            <h1 id="page-title">Aura Smart Headset V2 - Sample Customer Brochure &amp; Product Guide</h1>
+            <p class="subtitle">Intelligent Neural Noise Cancellation, Lossless Spatial Sound &amp; All-Day Ergonomic Mastery</p>
+        </header>
+
+        <main id="main-content" class="surface" role="main">
+            <section aria-labelledby="about-heading">
+                <h2 id="about-heading">About this Document</h2>
+                <p>This document is a speculative sample created exclusively for portfolio demonstration purposes to showcase accessible document creation. Aura Smart Headset V2 and Aura Audio Labs are fictional concepts and do not represent a commercial product.</p>
+            </section>
+
+            <section aria-labelledby="product-image-heading">
+                <h2 id="product-image-heading">Product Image</h2>
+                <figure>
+                    <img src="../assets/images/Gemini_Generated_Image_Headset%20Product%20Image.png" alt="Aura Smart Headset V2 shown in a premium over-ear design with cushioned ear cups and adjustable headband.">
+                    <figcaption>Figure 1: Aura Smart Headset V2 Sample Product Image. Image created by Nano Banana 2.</figcaption>
+                </figure>
+            </section>
+
+            <section aria-labelledby="why-choose-heading">
+                <h2 id="why-choose-heading">Why Choose Aura Smart Headset V2?</h2>
+                <p>Engineered for modern professionals, remote workers, and audiophiles, the Aura Smart Headset V2 combines adaptive Neural Noise Cancellation 3.0 with custom-tuned 40mm Beryllium acoustic drivers. Whether participating in high-stakes video conferences or immersing yourself in hi-res audio, Aura V2 delivers crystal-clear sound, 40-hour battery stamina, and multi-device connection switching.</p>
+            </section>
+
+            <section aria-labelledby="overview-heading">
+                <h2 id="overview-heading">1. Product Overview &amp; Key Innovations</h2>
+                <p>In today's hybrid work and lifestyle environment, audio clarity is no longer a luxury&mdash;it is an essential tool.</p>
+                <p>The Aura Smart Headset V2 is built from the ground up to solve the three most common acoustic pain points: background noise distraction during virtual meetings, ear fatigue during extended wear, and constant battery anxiety.</p>
+
+                <h3>1.1 Neural Noise Cancellation 3.0 (NNC)</h3>
+                <p>Powered by an onboard dual-core AI DSP chip, Aura V2 continuously analyses environmental noise at 48,000 samples per second. NNC 3.0 adaptively cancels up to 42dB of ambient noise&mdash;from airplane engine hums to bustling coffee shop chatter&mdash;while sparing speech frequencies so you remain aware when colleagues speak directly to you.</p>
+
+                <h3>1.2 Acoustic Excellence</h3>
+                <p>Equipped with custom 40mm Beryllium-coated dynamic drivers, the Aura V2 produces tight, impactful bass, smooth mids, and crystalline highs up to 40kHz.</p>
+
+                <h3>1.3 Smart Multi-Point Connectivity</h3>
+                <p>Never miss an urgent call again. Bluetooth 5.4 multi-point technology enables seamless connection to your laptop and smartphone simultaneously. When a phone call arrives while you are listening to music on your computer, Aura V2 automatically switches audio sources without requiring manual pairing.</p>
+            </section>
+
+            <section aria-labelledby="technical-specs-heading">
+                <h2 id="technical-specs-heading">2. Technical Specifications</h2>
+                <p>The complete technical specifications of the Aura Smart Headset V2 are outlined below:</p>
+                <table>
+                    <caption>Technical Specifications and Customer Benefits</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Category</th>
+                            <th scope="col">Technical Specification</th>
+                            <th scope="col">Customer Benefit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Acoustic Drivers</th>
+                            <td>40mm Beryllium Dynamic Transducers</td>
+                            <td>Ultra-low distortion and extended high-frequency response.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Active Noise Cancellation</th>
+                            <td>Hybrid Quad-Mic NNC 3.0 (up to -42dB)</td>
+                            <td>Eliminates workplace background noise instantly.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Microphone Array</th>
+                            <td>6-Mic Beamforming with AI Noise Suppression</td>
+                            <td>Crystal-clear voice pickup during calls in windy or noisy rooms.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Battery &amp; Charging</th>
+                            <td>40 hrs (ANC On) / 60 hrs (ANC Off) / Fast USB-C</td>
+                            <td>10-minute quick charge delivers 4 hours of playback time.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Wireless &amp; Range</th>
+                            <td>Bluetooth 5.4 + 2.4GHz Low-Latency Dongle</td>
+                            <td>30-meter (100ft) range with sub-20ms audio latency for gaming/video.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Weight &amp; Build</th>
+                            <td>235 grams / Memory Foam Ear Cushions</td>
+                            <td>Featherlight comfort for all-day 8+ hour wear without head pressure.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section aria-labelledby="comparison-heading">
+                <h2 id="comparison-heading">3. Feature Comparison &amp; Upgrade Guide</h2>
+                <p>See how the Aura Smart Headset V2 outperforms its predecessor and competing market flagships:</p>
+                <table>
+                    <caption>Feature Comparison: Aura V1, Aura V2, and Industry Competitors</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Key Metric / Feature</th>
+                            <th scope="col">Aura Headset V1</th>
+                            <th scope="col">Aura Headset V2</th>
+                            <th scope="col">Industry Competitor Average</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">ANC Reduction Level</th>
+                            <td>-30 dB (Standard)</td>
+                            <td>-42 dB (Adaptive NNC 3.0)</td>
+                            <td>-35 dB</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Battery Life</th>
+                            <td>24 Hours</td>
+                            <td>40 Hours (+66% Increase)</td>
+                            <td>28 Hours</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Voice Isolation Mics</th>
+                            <td>2 Beamforming Mics</td>
+                            <td>6 AI-Enhanced Mics</td>
+                            <td>4 Standard Mics</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section aria-labelledby="software-heading">
+                <h2 id="software-heading">4. Software Ecosystem: AuraConnect App</h2>
+                <p>Unlock the full power of your Aura Smart Headset V2 with the free AuraConnect app available on iOS, Android, macOS, and Windows.</p>
+                <ul>
+                    <li><strong>Smart Hearing Protection &amp; Sound Meter:</strong> Monitors decibel exposure levels in real-time to safeguard long-term hearing health during long workdays.</li>
+                    <li><strong>Over-The-Air (OTA) Firmware Updates:</strong> Receive continuous AI algorithm improvements, new sound profiles, and feature upgrades automatically.</li>
+                    <li><strong>Find My Aura Location Tracking:</strong> Locate misplaced headphones using built-in Bluetooth proximity alerts and last-known GPS mapping.</li>
+                </ul>
+            </section>
+
+            <section aria-labelledby="unboxing-heading">
+                <h2 id="unboxing-heading">5. Unboxing &amp; Accessories Included</h2>
+                <p>Every Aura Smart Headset V2 package comes in eco-friendly 100% recyclable packaging and includes:</p>
+                <ul>
+                    <li>Aura Smart Headset V2 (Choice of Midnight Black, Stellar Silver, or Navy Blue)</li>
+                    <li>Premium Hard-Shell Travel Carrying Case with Magnetic Cable Storage</li>
+                    <li>USB-C to USB-C Braided Fast-Charging Cable (1.2 meters)</li>
+                    <li>3.5mm Gold-Plated Audio Cable for Passive Wired Listening</li>
+                    <li>Ultra-Low Latency USB-C Wireless Transceiver Dongle (with USB-A Adapter)</li>
+                    <li>Flight Dual-Plug Adapter &amp; Quick Start User Guide</li>
+                </ul>
+            </section>
+
+            <section aria-labelledby="support-heading">
+                <h2 id="support-heading">6. Warranty, Customer Support &amp; Ordering</h2>
+                <p>Aura Audio Labs stands behind every product with an industry-leading customer guarantee:</p>
+
+                <h3>2-Year International Warranty</h3>
+                <p>Covers all manufacturing defects, hardware failures, and battery degradation under normal use.</p>
+
+                <h3>30-Day Risk-Free Trial</h3>
+                <p>Experience Aura V2 in your home or office. If you are not completely satisfied, return it for a full refund with no hassle.</p>
+
+                <h3>Global Customer Support</h3>
+                <p>Access 24/7 technical assistance via live chat at <a href="https://support.auraaudio.com">support.auraaudio.com</a> or call toll-free at <a href="tel:+00000002872">+XX (XXX) XXX-AURA</a>.</p>
+            </section>
+        </main>
+
+        <footer class="surface" role="contentinfo">
+            <p><strong>Disclaimer:</strong> This is a portfolio demonstration project. Content developed with assistance from GitHub Copilot.</p>
+            <p><strong>Image Credit:</strong> Image created by Nano Banana 2.</p>
+        </footer>
+    </div>
 </body>
 </html>
