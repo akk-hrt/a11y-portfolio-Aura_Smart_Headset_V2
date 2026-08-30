@@ -1,9 +1,10 @@
 # Aura Smart Headset V2 - Sample Product Guide
 
-This repository contains an accessibility-focused sample product guide for a fictional headset, *"Aura Smart Headset V2"*. The project was created as part of my portfolio to demonstrate accessible document creation and content structuring across multiple formats.
+This repository contains an accessibility-focused sample product guide for a fictional headset, *"Aura Smart Headset V2"*. This project was created as part of my portfolio to demonstrate how I approach accessible document creation across multiple formats.
 
 ## About this project
-The sample product guide shows how the same content can be presented accessibly in:
+
+The sample product guide shows how the same content can be presented accessibly in multiple formats, including:
 
 - Microsoft Word
 - PowerPoint
@@ -11,19 +12,38 @@ The sample product guide shows how the same content can be presented accessibly 
 <!-- -PDF -->
 <!-- HTML -->
 
+This project is intended to demonstrate practical accessibility considerations such as document structure and readability.
+
 ## Files in this repository
 
+This repository currently includes the following files for the Aura Smart Headset V2 sample product guide:
 
+- `README.md` - pverview of the project and portfolio context
+- `docs/Aura-Smart-Headset-V2-Sample-Product-Guide.docx` - accessible Word version of the product guide
+- `docs/Aura-Smart-Headset-V2-Sample-Product-Guide.md` - Markdown version of the product guide
+- `docs/Aura Smart Headset V2 – Sample Product Guide.pptx` - accessible PowerPoint version of the product guide
+
+### Planned Future additions
+
+Future updates will include:
+- an accessible PDF version and
+- an accessible HTML version of the product guide
+
+These additional formats are planned as part of ongoing development of the project and will be added when complete.
 
 ## Accessibility features demonstrated
 
+Accessibility features and practices used in the guide include:
+
+- clear and logical heading hierarchy
+- structured lists and sections
 
 
 ## Content creation note
 
 Generative AI was used to help draft the fictional product guide content. I then reviewed and refined the material myself.
 
-Accessibility-related structure - including heading hierarchy, lists, and formatting etc. - was created and applied manually, not by AI.
+Accessibility-related structure - including heading hierarchy, lists, formatting, and alt texts etc. - was created and applied manually, not by AI.
 
 ## Fictional product disclaimer
 
