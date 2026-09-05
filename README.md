@@ -21,7 +21,7 @@ This repository currently includes the following files for the Aura Smart Headse
 - `README.md`(this file) - pverview of the project and portfolio context
 - [`docs/Aura-Smart-Headset-V2-Sample-Product-Guide.docx`](docs/Aura-Smart-Headset-V2-Sample-Product-Guide.docx) - accessible Word version of the product guide
 - [`docs/Aura-Smart-Headset-V2-Sample-Product-Guide.md`](docs/Aura-Smart-Headset-V2-Sample-Product-Guide.md) - Markdown version of the product guide
-- [`docs/AuraSmart Headset V2 – Sample Product Guide.pptx`](docs/Aura Smart Headset V2 – Sample Product Guide.pptx) - accessible PowerPoint version of the product guide
+- [`docs/AuraSmart Headset V2 – Sample Product Guide.pptx`](docs/AuraSmartHeadsetV2–SampleProductGuide.pptx) - accessible PowerPoint version of the product guide
 
 ### Planned Future additions
 
