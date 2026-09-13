@@ -19,9 +19,9 @@ This project is intended to demonstrate practical accessibility considerations s
 This repository currently includes the following files for the Aura Smart Headset V2 sample product guide:
 
 - `README.md`(this file) - pverview of the project and portfolio context
-- [`docs/Aura-Smart-Headset-V2-Sample-Product-Guide.docx`](docs/Aura-Smart-Headset-V2-Sample-Product-Guide.docx) - accessible Word version of the product guide
-- [`docs/Aura-Smart-Headset-V2-Sample-Product-Guide.md`](docs/Aura-Smart-Headset-V2-Sample-Product-Guide.md) - Markdown version of the product guide
-- [`docs/AuraSmart Headset V2 – Sample Product Guide.pptx`](docs/AuraSmartHeadsetV2–SampleProductGuide.pptx) - accessible PowerPoint version of the product guide
+- [`docs/Aura-Smart-Headset-V2-Sample-Product-Guide.docx`](https://akk-hrt.github.io/a11y-portfolio-Aura_Smart_Headset_V2/docs/Aura-Smart-Headset-V2-Sample-Product-Guide.docx) - accessible Word version of the product guide
+- [`docs/Aura-Smart-Headset-V2-Sample-Product-Guide.md`](https://akk-hrt.github.io/a11y-portfolio-Aura_Smart_Headset_V2/docs/Aura-Smart-Headset-V2-Sample-Product-Guide.md) - Markdown version of the product guide
+- [`docs/AuraSmart Headset V2 – Sample Product Guide.pptx`](https://akk-hrt.github.io/a11y-portfolio-Aura_Smart_Headset_V2/docs/AuraSmartHeadsetV2–SampleProductGuide.pptx) - accessible PowerPoint version of the product guide
 
 ### Planned Future additions
 
